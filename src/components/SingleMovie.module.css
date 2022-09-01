@@ -53,11 +53,6 @@
 }
 
 @media (max-width: 1000px) {
-  /* * {
-    margin: 1rem;
-    overflow-x: hidden;
-  } */
-
   .singleMovie {
     display: flex;
     flex-direction: column;

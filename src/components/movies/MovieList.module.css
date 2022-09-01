@@ -31,13 +31,7 @@
   bottom: 0px;
   transform: translateY(100%);
   visibility: hidden;
-  animation: 1s 1s 1s infinte;
-  animation: name duration timing-function delay iteration-count direction
-    fill-mode;
 }
-/* .yearAndTitle:hover {
-    animation: showMovieDetail 0.7s 0.5s;
-  } */
 
 @keyframes showMovieDetail {
   0% {

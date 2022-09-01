@@ -12,8 +12,3 @@
   margin: auto;
   justify-content: center;
 }
-@media (max-width: 1500px) {
-  .App {
-    /* width: 60%; */
-  }
-}
