@@ -1,0 +1,51 @@
+.moviesList {
+  gap: 1rem 1rem;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  flex-flow: wrap;
+  flex-wrap: wrap;
+}
+
+.moviesList img {
+  width: 280px;
+  height: 400px;
+  object-fit: cover;
+  position: relative;
+}
+.moviesList .movie {
+  position: relative;
+  display: flex;
+  cursor: pointer;
+}
+.yearAndTitle {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  width: 100%;
+  background-color: #343131;
+  color: #f9fafb;
+  height: 3.5rem;
+  opacity: 0.8;
+  font-weight: 500;
+  bottom: 0px;
+  transform: translateY(100%);
+  visibility: hidden;
+  animation: 1s 1s 1s infinte;
+  animation: name duration timing-function delay iteration-count direction
+    fill-mode;
+}
+/* .yearAndTitle:hover {
+    animation: showMovieDetail 0.7s 0.5s;
+  } */
+
+@keyframes showMovieDetail {
+  0% {
+    transform: translateY(56px);
+    visibility: hidden;
+  }
+  100% {
+    transform: translateY(0px);
+    visibility: visible;
+  }
+}
