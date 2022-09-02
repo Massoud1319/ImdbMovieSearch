@@ -1,3 +1,8 @@
+
+React project  using #htm #css  #javascript  #reactjs  , using fetch api to get the data then mapping the result and showing  the movies List  using #reacthooks  useState  ,useEffect ,useParam.
+Also using  react router dom. library to. make route to show. the. Details of every single Movie 
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
