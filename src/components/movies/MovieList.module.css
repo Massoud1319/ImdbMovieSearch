@@ -32,6 +32,9 @@
   bottom: 0px;
   transform: translateY(100%);
   visibility: hidden;
+  /* animation: name duration timing-function delay iteration-count direction
+    fill-mode; */
+  animation: showMovieDetail 0.2s 0.3s ease-in-out;
 }
 
 @keyframes showMovieDetail {
@@ -42,5 +45,13 @@
   100% {
     transform: translateY(0px);
     visibility: visible;
+  }
+}
+
+@media (max-width: 725px) {
+  .moviesList img {
+    width: 65vw;
+    margin: auto;
+    margin-left: 1rem;
   }
 }

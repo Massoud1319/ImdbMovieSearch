@@ -13,3 +13,15 @@
   justify-content: flex-start;
   padding-left: 8rem;
 }
+
+@media (max-width: 1400px) {
+  .App {
+    padding: 2rem;
+  }
+}
+
+@media (max-width: 1000px) {
+  .App {
+    padding: 3rem;
+  }
+}

@@ -22,11 +22,6 @@ const MoviesList = ({ searchTerm }) => {
   const movieMap = movies.map((movie) => (
     <Link to={`/${movie.imdbID}`} className={classes.movie} key={movie.imdbID}>
       <img src={movie.Poster} alt={"Not Founded"} />
-      <div className={classes.yearAndTitle}>
-        {movie.Title}
-        <br />
-        {movie.Year}
-      </div>
     </Link>
   ));
 

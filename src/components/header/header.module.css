@@ -17,3 +17,8 @@
   height: 3rem;
   border-radius: 3px;
 }
+@media (max-width: 400px) {
+  .label {
+    font-size: x-large;
+  }
+}
