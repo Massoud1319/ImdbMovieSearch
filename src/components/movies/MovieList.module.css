@@ -3,8 +3,9 @@
   justify-content: center;
   display: flex;
   flex-direction: column;
-  flex-flow: wrap;
+  flex-flow: row;
   flex-wrap: wrap;
+  justify-content: flex-start;
 }
 
 .moviesList img {

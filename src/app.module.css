@@ -10,5 +10,6 @@
   align-content: baseline;
   justify-self: center;
   margin: auto;
-  justify-content: center;
+  justify-content: flex-start;
+  padding-left: 8rem;
 }
